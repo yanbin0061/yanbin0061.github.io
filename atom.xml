@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-29T08:17:33.609Z</updated>
+  <updated>2017-08-29T15:46:57.730Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,12 +20,14 @@
     <link href="http://yoursite.com/2017/08/29/1358/"/>
     <id>http://yoursite.com/2017/08/29/1358/</id>
     <published>2017-08-29T08:17:33.000Z</published>
-    <updated>2017-08-29T08:17:33.609Z</updated>
+    <updated>2017-08-29T15:46:57.730Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="-爱情" scheme="http://yoursite.com/tags/%E7%88%B1%E6%83%85/"/>
     
   </entry>
   
@@ -34,12 +36,14 @@
     <link href="http://yoursite.com/2017/08/29/l%E5%A4%A7%E4%BD%9Bi%E5%B0%91if/"/>
     <id>http://yoursite.com/2017/08/29/l大佛i少if/</id>
     <published>2017-08-29T05:45:05.000Z</published>
-    <updated>2017-08-29T07:58:26.831Z</updated>
+    <updated>2017-08-29T15:47:00.428Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="-情感" scheme="http://yoursite.com/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
@@ -62,7 +66,7 @@
     <link href="http://yoursite.com/2017/08/28/hello-world/"/>
     <id>http://yoursite.com/2017/08/28/hello-world/</id>
     <published>2017-08-28T11:31:57.663Z</published>
-    <updated>2017-08-29T07:34:23.393Z</updated>
+    <updated>2017-08-29T15:49:24.951Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -81,6 +85,10 @@
     
     </summary>
     
+      <category term="-生活" scheme="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="-Test -情感" scheme="http://yoursite.com/tags/Test-%E6%83%85%E6%84%9F/"/>
     
   </entry>
   

@@ -4,11 +4,17 @@
     <title><![CDATA[1358]]></title>
     <url>%2F2017%2F08%2F29%2F1358%2F</url>
     <content type="text"></content>
+      <tags>
+        <tag>-爱情</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[l大佛i少if]]></title>
     <url>%2F2017%2F08%2F29%2Fl%E5%A4%A7%E4%BD%9Bi%E5%B0%91if%2F</url>
     <content type="text"></content>
+      <tags>
+        <tag>-情感</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[lalal]]></title>
@@ -19,5 +25,11 @@
     <title><![CDATA[Hello World]]></title>
     <url>%2F2017%2F08%2F28%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>-生活</category>
+      </categories>
+      <tags>
+        <tag>-Test -情感</tag>
+      </tags>
   </entry>
 </search>
