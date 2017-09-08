@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-08T13:31:28.795Z</updated>
+  <updated>2017-09-08T13:51:51.020Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,16 +20,21 @@
     <link href="http://yoursite.com/2017/09/08/%E7%94%9F%E7%89%A9%E7%89%B9%E5%BE%81%E6%A8%A1%E6%9D%BF%E4%BF%9D%E6%8A%A4/"/>
     <id>http://yoursite.com/2017/09/08/生物特征模板保护/</id>
     <published>2017-09-08T13:04:34.880Z</published>
-    <updated>2017-09-08T13:31:28.795Z</updated>
+    <updated>2017-09-08T13:51:51.020Z</updated>
     
-    <content type="html"><![CDATA[<p>生物特征识别技术在近几年研究的比较多，应该范围也比较广泛，主要是利用了生物特征具有的稳定性，唯一性，活体检测性等优良的特性。然而，在生物特征的整个使用过程中，却存在着许许多多的问题，其中主要包括的问题是生物的模糊性和生物特征的隐私性问题。今天主要介绍生物特征隐私方面的模板保护问题。</p>
+    <content type="html"><![CDATA[<p>生物特征识别技术在近几年研究的比较多，应该范围也比较广泛，主要是利用了生物特征具有的稳定性，唯一性，活体检测性等优良的特性。然而，在生物特征的整个使用过程中，却存在着许许多多的问题，其中主要包括的问题是生物的模糊性和生物特征的隐私性问题。今天主要介绍生物特征隐私方面的模板保护问题。<br><a id="more"></a></p>
 <h2 id="生物特征保护技术"><a href="#生物特征保护技术" class="headerlink" title="生物特征保护技术"></a>生物特征保护技术</h2><p>   因为生物特征具有稳定和唯一性，可作为标识身份信息，但这个优点是生物特征所具有的不足，正所谓有利必有害。当我们用生物特征作为身份信息时，我们需要防止攻击者获取用户的生物特征信息，至少不能暴露用户的原始生物信息，因为一旦暴露，将是永久性的丢失。基于这样的考虑，我们引入了生物特征保护技术。目前生物特征保护技术主要有：</p>
 <ol>
 <li>特征变换法</li>
 <li>密钥绑定法</li>
-<li>密钥生成法<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3></li>
+<li>密钥生成法<br>生物特征模板应该具备的特点：</li>
+<li>多样性：生成的模板应该能够避免不同数据库之间的交叉匹配，一个数据库信息的泄露不会影响其他的数据库安全</li>
+<li>可撤销性：当用户的变换模板被攻破时，用户可以使用原始的生物特征模板重新生成新的生物特征模板，撤销被攻破的模板，但不会泄露原始的生物特征信息</li>
+<li>安全性：模板保护算法在于算法的复杂度，而不在于加密框架的不可知性</li>
+<li>认证性能： 生物特征模板在加密域内不应该降低原始的生物特征识别性能<h3 id="特征变化法"><a href="#特征变化法" class="headerlink" title="特征变化法"></a>特征变化法</h3></li>
 </ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<h4 id="基本思想"><a href="#基本思想" class="headerlink" title="基本思想"></a>基本思想</h4><pre><code>特征变换法的基本思想是将原始的生物特征从像素域变换到另一个域中，生成不可逆的生物特征模板，数据库仅存储变换后的生物特征模板，而不存储任何和原始生物特征相关的信息，在身份认证阶段，通过比较变换后的生物特征模板来进行身份认证。
+</code></pre><h3 id="密钥绑定法"><a href="#密钥绑定法" class="headerlink" title="密钥绑定法"></a>密钥绑定法</h3><h3 id="密钥生成法"><a href="#密钥生成法" class="headerlink" title="密钥生成法"></a>密钥生成法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
@@ -41,7 +46,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;生物特征识别技术在近几年研究的比较多，应该范围也比较广泛，主要是利用了生物特征具有的稳定性，唯一性，活体检测性等优良的特性。然而，在生物特征的整个使用过程中，却存在着许许多多的问题，其中主要包括的问题是生物的模糊性和生物特征的隐私性问题。今天主要介绍生物特征隐私方面的模板保
+      &lt;p&gt;生物特征识别技术在近几年研究的比较多，应该范围也比较广泛，主要是利用了生物特征具有的稳定性，唯一性，活体检测性等优良的特性。然而，在生物特征的整个使用过程中，却存在着许许多多的问题，其中主要包括的问题是生物的模糊性和生物特征的隐私性问题。今天主要介绍生物特征隐私方面的模板保护问题。&lt;br&gt;
     
     </summary>
     
